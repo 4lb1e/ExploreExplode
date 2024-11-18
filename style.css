@@ -1,0 +1,548 @@
+p3{
+  background: rgba(0, 0, 0, 0);
+  color: rgb(130, 0, 0);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight:bolder;
+font-size: 4.5rem;
+letter-spacing: -0.5rem;
+line-height: 3.8rem;
+word-spacing: 0.5rem;
+position: relative;top: -2rem;left: 6rem;
+}
+p1{
+  background: rgba(0, 0, 0, 0);
+  color: rgb(130, 0, 0);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight:bolder;
+font-size: 5rem;
+letter-spacing: -0.5rem;
+line-height: 4.5rem;
+word-spacing: 0.5rem;
+position: relative;top: -2rem;left: 6rem;
+}
+p{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight:bolder;
+font-size: 10rem;
+padding: 0.5rem;
+letter-spacing: -0.8rem;
+line-height: 8rem;
+word-spacing: 1rem;
+}
+img{
+    width: 100px;
+    height:auto;
+
+}
+
+.unit{
+    width: 250px;
+    height: auto;
+    position: relative;top: -6rem;left: 11rem;
+    bottom: auto;
+    rotate: 320deg;
+    transition: 2s;
+  
+  }
+
+  .unit:hover{
+    transform: rotate(10deg);
+    transition: 2s;
+  }
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.container {
+  height: 20rem;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.container p {
+  font-size: 10rem;
+  padding: 0.5rem;
+  font-weight: bolder;
+  letter-spacing: -0.8rem;
+  text-align: left;
+  overflow: visible;
+  line-height: 8rem;
+  word-spacing: 1rem;
+}
+.container1 {
+  height: 20rem;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.container1p {
+  font-size: 10rem;
+  padding: 0.5rem;
+  font-weight: bolder;
+  letter-spacing: -0.8rem;
+  text-align: left;
+  overflow: visible;
+  line-height: 8rem;
+  word-spacing: 1rem;
+}
+
+.container p span.cursor {
+  display: inline-block;
+  background-color: #000000;
+  margin-left: 1rem;
+  width: 20px;
+  height: 8rem;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #000000; }
+  49% { background-color: #000000; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #000000; }
+}
+.a1{
+  width: 300px;height: auto;
+  position: absolute;top: 20.5rem;left: 40rem;
+  transition: 2s;
+}
+.a1:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 22.5rem;left: 40rem;rotate: 20deg;
+  transition: 2s;
+}
+.a2{
+  width: 200px;height: auto;
+  position: absolute;top: 27rem;left: 55rem;
+  transition: 2s;
+}
+.a2:hover{
+  width: 200px;height: auto;
+  position: absolute;top: 27rem;left: 50rem;rotate: 10deg;
+  transition: 2s;
+}
+.a3{
+  width: 350px;height: auto;
+  position: absolute;top: 2rem;left: 58rem;
+  rotate: 30deg;
+  transition: 2s;
+}
+.a3:hover{
+  width: 350px;height: auto;
+  position: absolute;top: 2rem;left: 60rem;
+  rotate: 40deg;
+  animation: 2s;
+  transition: 2s;
+}
+.a4{
+  width: 300px;height: auto;
+  position: absolute;top: 2rem;left: 63rem;rotate: -20deg;
+  transition: 2s;
+}
+.a4:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 6rem;left: 63rem;rotate: 10deg;
+  transition: 2s;
+}
+.a5{
+  width: 200px;height: auto;
+  position: absolute;top: 5rem;left: 65rem;
+  transition: 2s;
+}
+.a5:hover{
+  width: 200px;height: auto;
+  position: absolute;top: 8rem;left: 63rem;rotate: 10deg;
+  transition: 2s;
+}
+.a6{
+  width: 300px;height: auto;
+  position: absolute;top: 5rem;left: 32rem;rotate: -30deg;
+  transition: 2s;
+}
+.a6:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 5rem;left: 30rem;rotate: -60deg;
+  transition: 2s;
+}
+.a7{
+  width: 300px;height: auto;
+  position: absolute;top: 2rem;left: 2rem;
+  transition: 2s;
+}
+.a7:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 2rem;left: 2rem;
+  transition: 2s;
+}
+.a8{
+  width: 300px;height: auto;
+  position: absolute;top: 20rem;left: 4rem;rotate: -20deg;
+  transition: 2s;
+}
+.a8:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 23rem;left: 4rem;rotate: 0deg;
+  transition: 2s;
+}
+.a9{
+  width: 300px;height: auto;
+  position: absolute;top: 24rem;left: 60rem;
+  transition: 2s;
+}
+.a9:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 20rem;left: 60rem;rotate: 10deg;
+  transition: 2s;
+}
+.a10{
+  width: 300px;height: auto;
+  position: absolute;top: 26rem;left: 3rem;rotate: -20deg;
+  transition: 2s;
+}
+.a10:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 25rem;left: 4rem;rotate: -40deg;
+  transition: 2s;
+}
+.a11{
+  width: 200px;height: auto;
+  position: absolute;top: 30rem;left: 30rem;rotate: 180deg;
+  transition: 2s;
+}
+.a11:hover{
+  width: 200px;height: auto;
+  position: absolute;top: 30rem;left: 30rem; rotate: 180deg ;
+  transition: 2s;
+}
+.a12{
+  width: 300px;height: auto;
+  position: absolute;top: 18.5rem;left: 29rem;
+  transition: 2s;
+  rotate: 30deg;
+}
+.a12:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 24.5rem;left: 33rem;
+  transition: 2s;
+  rotate: 40deg;
+}
+.a13{
+  width: 100px;height: auto;
+  position: absolute;top: 25rem;left: 8rem;
+  rotate: -20deg;
+  transition: 2s;
+}
+.a13:hover{
+  width: 100px;height: auto;
+  position: absolute;top: 23rem;left: 8rem;
+  rotate: -40deg;
+  transition: 2s;
+}
+.a14{
+  width: 300px;height: auto;
+  position: absolute;top: 1rem;left: 50rem;rotate: 75deg;
+  transition: 2s;
+}
+.a14:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 2rem;left: 55rem;rotate: 105deg;
+  transition: 2s;
+}
+.a15{
+  width: 300px;height: auto;
+  position: absolute;top: 21rem;left: 25rem;
+  rotate: -20deg;
+  transition: 2s;
+}
+.a15:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 20rem;left: 25rem;
+  rotate: -10deg;
+  transition: 2s;
+}
+.a16{
+  width: 300px;height: auto;
+  position: absolute;top: 18rem;left: 41.5rem; rotate: 70deg;
+  transition: 2s;
+}
+.a16:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 19rem;left: 41.5rem; rotate: 40deg;
+  transition: 2s;
+}
+.a17{
+  width: 300px;height: auto;
+  position: absolute;top: 21rem;left: 13rem;
+  rotate: -30deg;
+  transition: 2s;
+}
+.a17:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 20rem;left: 15rem;
+  rotate: 10deg;
+  transition: 2s;
+}
+.a18{
+  width: 300px;height: auto;
+  position: absolute;top: 27rem;left: 20rem;
+  transition: 2s;
+}
+.a18:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 25rem;left: 21rem;rotate: 10deg;
+  transition: 2s;
+}
+.a19{
+  width: 300px;height: auto;
+  position: absolute;top: 25rem;left: 38rem;
+  transition: 2s;
+}
+.a19:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 25rem;left: 39rem;rotate: -20deg;
+  transition: 2s;
+}
+.a20{
+  width: 400px;height: auto;
+  position: absolute;top: 12rem;left: 40rem;
+rotate: -10deg;
+  transition: 2s;
+}
+.a20:hover{
+  width: 400px;height: auto;
+  position: absolute;top: 10rem;left: 42rem;
+  transition: 2s;
+  rotate: -40deg;
+}
+.a21{
+  width: 500px;height: auto;
+  position: absolute;top: 17rem;left: 54rem;
+  transition: 2s;
+}
+.a21:hover{
+  width: 500px;height: auto;
+  position: absolute;top: 15rem;left: 53rem; rotate: 10deg;
+  transition: 2s;
+}
+.a23{
+  width: 200px;height: auto;
+  position: absolute;top: 27.5rem;left: 60rem;
+  transition: 2s;
+}
+.a23:hover{
+  width: 200px;height: auto;
+  position: absolute;top: 27rem;left: 60rem;
+  transition: 2s;
+}
+.a22{
+  width: 300px;height: auto;
+  position: absolute;top: 20rem;left: 56rem;rotate: 34deg;
+  transition: 2s;
+  z-index: 2;
+}
+.a22:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 10rem;left: 58rem;rotate: 64deg;
+  transition: 2s;
+  z-index: 2;
+}
+
+.a24{
+  width: 400px;height: auto;
+  position: absolute;top: 22rem;left: 3rem;
+  transition: 2s;
+}
+.a24:hover{
+  width: 400px;height: auto;
+  position: absolute;top: 20rem;left: 3rem;rotate: -10deg;
+  transition: 2s;
+}
+.a25{
+  width: 300px;height: auto;
+  position: absolute;top: 22rem;left: 20rem;
+  transition: 2s;
+}
+.a25:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 20rem;left: 20rem;rotate: 10deg;
+  transition: 2s;
+}
+.a26{
+  width: 300px;height: auto;
+  position: absolute;top: 19.5rem;left: 41rem;
+  transition: 2s;
+}
+.a26:hover{
+  width: 300px;height: auto;
+  position: absolute;top: 15.5rem;left: 41rem;rotate: 10deg;
+  transition: 2s;
+}
+.shelf2{
+  width: 200px; ;
+  position: relative;
+}
+.shelf1{
+  width: 700px;
+  position:relative;bottom: 23rem;right: -32rem;rotate: 40deg;
+  transition: 4s;
+}
+.shelf1:hover{
+  position: relative;bottom: 15rem;right: -5rem;
+  rotate: -40deg;
+  transition: 4s;
+}
+.shelf2{
+  width: 500px;
+  rotate: -40deg;
+  height: auto;
+transition: 3s;
+position: relative; bottom: 5.45rem;left: 10rem;
+}
+.shelf2:hover{
+  position: relative; bottom: 4rem;left: 2rem;
+  rotate: -95deg;
+}
+
+.shelf3{
+  height: auto;
+  position: relative; bottom: 13rem;left: 32rem; transition: 3s;
+  width: 800px;
+  rotate: -22deg 
+}
+.shelf3:hover{
+width: 450px; height: auto; 
+position: relative; bottom: 3rem; left: 49rem;
+rotate: 30deg;
+transition: 3s;
+}
+.shelf4{
+  height: auto;
+  position: relative; bottom: 18rem;left: 29rem; transition: 3s;
+  width: 850px;
+  rotate: 32deg 
+}
+.shelf4:hover{
+width: 850; height: auto; 
+position: relative; bottom: 35rem; left: 29rem;
+rotate: 15deg;
+transition: 3s;
+}
+
+.insta{
+
+  width: 4rem;
+  height: auto;
+  position:absolute;
+  top: 28.1rem;
+  left: 1rem;
+
+}
+.insta:hover{
+  transform: scale(1.15);
+  transition: .2s;
+
+}
+.up{
+
+  width: 4rem;
+  height: auto;
+  position:absolute;
+  top: 19.5rem;
+  left: 1rem;
+
+}
+.up:hover{
+  transform: scale(1.15);
+  transition: .2s;
+
+}
+.zoom{
+
+  width: 4rem;
+  height: auto;
+  position:absolute;
+  top: 24.25rem;
+  left: 1rem;
+
+}
+.zoom:hover{
+  transform: scale(1.15);
+  transition: .2s;
+
+}
+.zoomminus{
+
+  width: 4rem;
+  height: auto;
+  position:absolute;
+  top: 31.75rem;
+  left: 1rem;
+
+}
+.zoomminus:hover{
+  transform: scale(1.15);
+  transition: .2s;
+
+}
+.down{
+
+  width: 4rem;
+  height: auto;
+  position:absolute;
+  top: 34rem;
+  left: 1rem;
+
+}
+.down:hover{
+  transform: scale(1.15);
+  transition: .2s;
+
+}
+.zoomy{
+  position: relative;top: -0.5rem; left: 5.5rem;
+  width: 18rem; height: auto;
+  transition: 2s;
+}
+.zoomy:hover{
+  transform: scale(1.1);
+  transform: 2s;
+}
+.shelfs22{
+  height: auto;
+width: 1000px; 
+position: absolute;top: 28.5rem;left: 15rem;
+}
+.shelfs2{
+  width: 600px;
+  height: auto;
+  position: relative;top: -14.5rem;left: 12rem;
+  bottom: auto;
+  transition: 2s;
+}
+.shelfs2:hover{
+transform: scale(1.05);
+transition: 2s;
+}
+.ok{
+  position: absolute;top: 16rem;left: 45rem;
+  width: 450px;
+  transition: 2s;
+}
+.ok:hover{
+rotate: -10deg;
+transition: 2s;
+}
